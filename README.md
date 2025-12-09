@@ -45,6 +45,19 @@ For PNGs with premade transparency, just upload and generate (no background remo
 - **Templates** are defined in YAML: canvas size, optional template image, photo box coordinates, and text block styling.
 - **Jobs** can be YAML or CSV. A job maps photos to the template plus recipient/giver names and a message.
 
+## Install the packages (new users)
+
+```bash
+python -m venv .venv
+.venv/Scripts/activate  # Windows
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Optional extras:
+- Background removal for JPGs: `pip install rembg onnxruntime`
+- Run the web UI: `pip install streamlit`
+
 ## Template config (`configs/template.yml`)
 
 ```yaml
