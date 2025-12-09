@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goodie-bag-bot"
+version = "0.1.0"
+description = "Automate creating thank-you cards with background removal and templated layouts."
+requires-python = ">=3.10"
+dependencies = [
+  "Pillow>=10.2.0",
+  "PyYAML>=6.0.1",
+  "rembg>=2.0.55",
+  "streamlit>=1.39.0",
+]
+
+[project.scripts]
+goodie-bag = "goodie_bot.cli:main"
+goodie-bag-ui = "goodie_bot.ui:main"

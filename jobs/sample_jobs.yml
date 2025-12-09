@@ -1,0 +1,15 @@
+- recipient_name: Jane Doe
+  giver_name: HR Team
+  message: "Receiving goodie bag from"
+  project_name: "Project Phoenix"
+  photos:
+    - input_photos/jane.png
+  output_name: jane-card
+
+- recipient_name: Product Crew
+  giver_name: Alan & Priya
+  message: "Receiving goodie bag from"
+  project_name: "Project Skyline"
+  photos:
+    - input_photos/crew.jpg
+  output_name: product-crew

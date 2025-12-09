@@ -1,0 +1,15 @@
+dimension of picture = 1920*1080 (WxH)
+
+assets/background = last layer
+assets/element 1 = top of background
+next "uploaded image"
+assets/element 3 = top of the photo
+assets/element 2 = top of element 3
+
+and all the top "congrats text" "logo" and "text"
+font size will above 20 pts
+
+reference will be in
+reference/ref_ppt_template - it is ppt file
+
+just layering work

@@ -1,0 +1,81 @@
+canvas:
+  width: 1920
+  height: 1080
+  template_path: template/assets/background.png
+
+# Static overlays are placed in order. placement:
+#   - before_photos: laid over the background before photos
+#   - after_photos: laid over photos (default)
+#   - top: above text (rare)
+overlays:
+  - path: template/assets/element 1.png
+    x: 1118
+    y: 0
+    width: 805
+    height: 426
+    placement: before_photos
+  - path: template/assets/element 3.png
+    x: 0
+    y: 386
+    width: 1262
+    height: 607
+    placement: after_photos
+  - path: template/assets/element 2.png
+    x: 0
+    y: 540
+    width: 1920
+    height: 549
+    placement: after_photos
+  - path: template/assets/congrats text.png
+    x: 60
+    y: 40
+    width: 650
+    height: 212
+    placement: after_photos
+  - path: template/assets/logo.png
+    x: 1260
+    y: 941
+    width: 531
+    height: 40
+    placement: after_photos
+
+photo_boxes:
+  - x: 290
+    y: 26
+    width: 1189
+    height: 920
+    border_radius: 24
+
+text_blocks:
+  recipient:
+    text: "{recipient_name}"
+    x: 75
+    y: 680
+    size: 30
+    color: "#ffffff"
+    font_path: template/assets/font/BAHNSCHRIFT.TTF
+    max_width: 500
+  project:
+    text: "{project_name}"
+    x: 75
+    y: 725
+    size: 30
+    color: "#ffffff"
+    font_path: template/assets/font/BAHNSCHRIFT.TTF
+    max_width: 500
+  message:
+    text: "{message}"
+    x: 75
+    y: 775
+    size: 26
+    color: "#ffc000"
+    font_path: template/assets/font/BAHNSCHRIFT.TTF
+    max_width: 500
+  giver:
+    text: "{giver_name}"
+    x: 75
+    y: 820
+    size: 30
+    color: "#ffffff"
+    font_path: template/assets/font/BAHNSCHRIFT.TTF
+    max_width: 500
